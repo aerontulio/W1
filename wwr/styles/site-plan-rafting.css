@@ -8,6 +8,10 @@
     --accent2-color: #768948;
     --heading-font: "Roboto", sans-serif;
     --paragraph-font: "Lumanosimo", cursive;
+    --nav-background-color: #1E2F23;
+    --nav-link-color: #768948;
+    --nav-hover-link-color: #768948;
+    --nav-hover-background-color: #1E2F23;
 }
 
 body {
@@ -60,24 +64,24 @@ main p {
 }
 
 nav {
-    background-color: var(--secondary-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--accent2-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--accent2-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--secondary-color);
+    color: var(--nav-background-color);
     background-color: var(--primary-color);
 }
 
