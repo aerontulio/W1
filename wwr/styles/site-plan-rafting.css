@@ -24,9 +24,9 @@ body {
 
 body header {
     padding: 20px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 body main {
