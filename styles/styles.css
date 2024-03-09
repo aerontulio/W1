@@ -63,12 +63,13 @@ ul a {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 500px;
-    left: 120px;
+    top: 25px;
+    left: 100px;
     color: #333;
 }
 
