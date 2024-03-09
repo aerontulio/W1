@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
     --primary-color: #607744;
     --secondary-color: #1E2F23;
     --accent1-color: #B39C4D;
     --accent2-color: #768948;
-    --heading-font: "Roboto", sans-serif;
-    --paragraph-font: "Lumanosimo", cursive;
+    --heading-font: "Madimi One", sans-serif;
+    --paragraph-font: "Roboto", sans-serif;
     --nav-background-color: #1E2F23;
     --nav-link-color: #768948;
     --nav-hover-link-color: #768948;
