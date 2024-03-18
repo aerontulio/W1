@@ -119,7 +119,9 @@ section h2 {
 }
 
 section img {
-    width: 150px;
+    width: 140px;
+    height: auto;
+    padding: 1px 10px 1px 10px;
 } 
 
 .history {
@@ -138,7 +140,6 @@ section img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
     padding-bottom: 1rem;
 }
 
