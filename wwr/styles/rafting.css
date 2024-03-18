@@ -9,35 +9,40 @@
     --paragraph-font: "Roboto", sans-serif;
 }
 
-
 * {
     margin: 0;
     padding: 0;
+
 }
+
 
 
 header {
-    max-width: 850px;
-    height: 100px;
-    padding: 1rem;
+    max-width: 840px;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
     background-color: var(--accent2-color);
-    text-align: center;
 }
 
 header img {
+    justify-self: center;
     width: 100px;
     height: auto;
-    float: left;
+
 }
 
 nav {
-    padding: 38px;
-
+    display: flex;
+    padding: 10px;
+    justify-self: center;
+    align-items: center;
 }
 
 nav a {
-    text-decoration: none;
     margin: 20px;
+    text-decoration: none;
     font-family: var(--paragraph-font);
     text-transform: uppercase;
     color: var(--accent1-color);
@@ -46,31 +51,30 @@ nav a {
 
 
 
-
 .hero {
-    max-width: 850px;
-    height: 300px;
-    background-color: var(--primary-color);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 840px;
+    margin-top: 5px; 
 }
-
 
 .hero img {
     position: relative;
-    width: 850px;
+    width: 840px;
     height: 300px;
     object-fit: cover;
 }
 
 .hero h1 {
-    text-align: center;
+    width: 840px;
     position: absolute;
     top: 150px;
-    left: 180px;
+    text-align: center;
     text-transform: uppercase;
-    background-color: #DC7836;
+    background-color: rgb(220, 120, 54, 0.75);
     font-family: var(--heading-font);
 }
-
 
 .hero article {
     position: absolute;
@@ -84,7 +88,7 @@ nav a {
 }
 
 .hero article p {
-    padding: 20px;
+    padding: 15px 5px 15px 5px;
     font-family: var(--paragraph-font);
     color: whitesmoke;
     text-align: justify;
@@ -92,70 +96,82 @@ nav a {
 
 .hero article img {
     display: block;
-    margin: 1rem;
     width: 150px;
     height: auto;
+    padding: 15px 5px 15px 5px;
     float: right;
 }
 
 
 
-
-
 section {
-    max-width: 850px;
+    max-width: 840px;
     height: auto;
     background-color: #0192E0;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
+    margin-top: 5px;
 }
 
 section h2 {
     font-family: var(--heading-font);
+    text-align: center;
+    padding: 10px;
 
-}
-
-section p {
-    text-align: justify;
-    font-family: var(--paragraph-font);
 }
 
 section img {
-    padding-top: 20px;
-    position: relative;
     width: 150px;
-    display: inline-block;
+} 
+
+.history {
+    display: flex;
+    padding-bottom: 1rem;
 }
 
+.history p {
+    text-align: justify;
+    font-family: var(--paragraph-font);
+    padding: 10px;
+}
 
+.figures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
 
+.figures figcaption {
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
 
 
 
 footer {
-    max-width: 850px;
-    height: 60px;
-    border: solid black;
-    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 840px;
+    border: solid black 1px;
+    margin-top: 5px;
+    background-color: #0192E0;
 }
 
 footer p {
-    position: absolute;
-    left: 230px;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
     font-family: var(--paragraph-font);
 }
 
 footer nav {
     columns: 1;
     padding: 1px;
-    background-color: #0192E0;
+    
 }
 
 nav a img {
     width: 40px;
-    padding: 10px;
-    float: right;
     text-decoration: none;
 }
