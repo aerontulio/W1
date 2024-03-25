@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    font-family: Merriweather;
+    font-size: 1.2em;
+    color: black;
+    background: white;
+}
+
+header {
+    text-align: center;
+    font-size: 0.8em;
+    color: navy;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+label, input, button, select, textarea , p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+b {
+    font-family: Merriweather;
+    color: navy;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    width: 480px;
+}
+
+input {
+    width: 480px;
+    height: 30px;
+    margin-left: 10px;
+    border: solid 1px rgb(128, 128, 128, 0.5);
+}
+
+select {
+    margin-left: 10px;
+    width: 480px;
+    height: 30px;
+    border: solid 1px rgb(128, 128, 128, 0.5);
+}
+
+textarea {
+    margin-left: 10px;
+    width: 480px;
+    height: 65px;
+    border: solid 1px rgb(128, 128, 128, 0.5);
+}
+
+.code {
+    display: grid;
+    justify-content: center;
+}
+
+.code p {
+    width: 300px;
+    background-color: #333333;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 0.60rem;
+    font-family: 'Segoe UI';
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    width: 480px;
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1rem;
+}
+  
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
