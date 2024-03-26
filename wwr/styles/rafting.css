@@ -12,10 +12,14 @@
 * {
     margin: 0;
     padding: 0;
+    
 
 }
 
-
+body {
+    display: grid;
+    justify-content: center;
+}
 
 header {
     max-width: 840px;
@@ -175,4 +179,227 @@ footer nav {
 nav a img {
     width: 40px;
     text-decoration: none;
+}
+
+
+/* these are the styles for the contact page */
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+
+.header h1 {
+    display: flex;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+}
+
+.header p {
+    display: flex;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; 
+    font-family: var(--paragraph-font);
+}
+
+
+.box {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+}
+
+.call, .email {
+    background-color: #DDD025;
+    width: 300px;
+    margin: 10px;
+    border-radius: 7px;
+    border: #2A1A6F solid 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.box .email img {
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    width: 28px;
+    height: 28px;
+}
+
+.box .call img {
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 55px;
+    width: 28px;
+    height: 28px;
+}
+
+.call h3, .email h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: var(--heading-font);
+}
+
+.call p, .email p {
+    padding-bottom: 30px;
+    font-family: var(--paragraph-font);
+}
+
+.headquarters {
+    background-color: #DDD025;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+    border-radius: 7px;
+    border: #2A1A6F solid 1px;
+}
+
+.headquarters h2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: var(--heading-font);
+}
+
+.headquarters h3{
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+}
+
+.headquarters p {
+    display: flex;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto; 
+    padding: 10px;
+    font-family: var(--paragraph-font);
+}
+
+.headquarters img {
+    display: flex;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    width: 28px;
+    height: 28px;
+}
+
+.map {
+    justify-self: center;
+    align-self: center;
+    margin: 10px;
+    
+}
+
+
+/* this part styles the employee section*/
+
+.container .mateo figure, .miguel figure{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.container .andrea figure{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+
+.container figure img {
+    width: 393px;
+    object-fit: cover;
+}
+
+.container figure .caption {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    font-family: var(--paragraph-font);
+}
+
+/* this is the part where the form section is styled */
+
+
+
+.forms {
+    display: grid;
+    justify-content: center;
+}
+
+form {
+    padding: 10px;
+    justify-content: center;
+
+}
+
+label, input[type="radio"], p {
+    font-family: var(--paragraph-font);
+}
+
+input[type="text"] {
+    width: 280px;
+    height: 30px;
+    margin-left: 10px;
+    border: solid 1px rgb(128, 128, 128, 0.5);
+}
+
+.purpose {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 680px;
+    height: 99px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    width: 480px;
+    margin: 1rem;
+    background-color: #2A1A6F;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1rem;
+}
+  
+button:hover {
+    background-color: #DDD025;
+    color: #2A1A6F;
+    font-size: 1rem;
+    font-weight: bold;
 }
