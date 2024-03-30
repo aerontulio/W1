@@ -104,42 +104,38 @@
                     <h2>Send Us a Message</h2>
                     <p>Send us a message and we'll respond within 24 hours.</p>
                 </div>
-                <div class="forms">
-                    <form>
+                <form>
+                    <div class="personal">
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name">
                         <label for="email">Email</label>
                         <input type="text" name="email" id="email">
-                    </form>
+                    </div>
 
                     <div class="purpose">
-                        <form>
-                            <p>Purpose of the Message</p>
+                        <p>Purpose of the Message</p>
+                        <div class="options">
                             <input type="radio" id="inquiry" name="purpose" value="General Inquiry">
                             <label for="inquiry">General Inquiry</label><br>
                             <input type="radio" id="question" name="purpose" value="Reservation Question">
                             <label for="question">Reservation Question</label><br>
                             <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                            <label for="suggestion">Website Suggestion</label>
-                        </form>
+                            <label for="suggestion">Website Suggestion</label>    
+                        </div>
                     </div>
 
-                    <form>
-                        <label for="message">Message</label><br>
-                        <textarea name="message" id="message"></textarea><br>
-                    </form>
-                        
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message"></textarea><br>
+                    
                     <div class="subscribe">
-                        <form>
-                            <input type="checkbox" id="subscribe" name="subscribe">
-                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                        </form>    
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label> 
                     </div>
-                        
+                    
                     <div class="button">
-                        <button>Send Message</button>
-                    </div>     
-                </div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
             </section>
         </div>
     </main>

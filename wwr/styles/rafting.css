@@ -343,16 +343,10 @@ nav a img {
 /* this is the part where the form section is styled */
 
 
-
-.forms {
-    display: grid;
-    justify-content: center;
-}
-
 form {
+    display: grid;
     padding: 10px;
     justify-content: center;
-
 }
 
 label, input[type="radio"], p {
@@ -362,13 +356,24 @@ label, input[type="radio"], p {
 input[type="text"] {
     width: 280px;
     height: 30px;
-    margin-left: 10px;
     border: solid 1px rgb(128, 128, 128, 0.5);
 }
 
-.purpose {
+.personal {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.purpose {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.options {
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
 }
 
 textarea {
