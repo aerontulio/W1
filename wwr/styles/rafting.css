@@ -82,9 +82,9 @@ nav a {
 
 .hero article {
     position: absolute;
-    top: 220px;
-    left: 110px;
     width: 600px;
+    top: 220px;
+    margin: 0 auto;
     padding: 10px;
     height: 150px;
     border: 1px solid black;
